@@ -1,8 +1,5 @@
 img {
-	position: absolute;
-	z-index: 2500000;
 	transition: transform .2s ease-in-out;
-	overflow: visible;
 }
 
 img:hover {
@@ -10,8 +7,5 @@ img:hover {
 	position: absolute !important;
 	transform: scale(2,2) !important;
 	z-index: 2500000 !important;
-	max-width: none !important;
-	max-height: none !important;
-	overflow: visible !important;
 
 }
