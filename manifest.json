@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Image Enlarger",
+	"description": "Image Enlarger is a Chrome Extension which enlarges/zooms images on hovering over an image in a webpage.",
+	"version": "1.0",
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"<all_urls>"
+	],
+	"content_scripts": [{
+		"matches": ["http://*/*", "https://*/*"],
+		"css": ["styles.css"]
+	}],
+	"icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"64": "icon.png",
+		"128": "icon.png"
+	},
+	"web_accessible_resources": ["styles.css"]
+
+}
