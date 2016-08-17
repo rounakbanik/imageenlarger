@@ -12,10 +12,6 @@ of the transform property (and CSS itself), images zoom only under certain circu
   parent's dimensions.</li>
 </ul>
 
-<h2>Use</h2>
-Click on the 'Image Enlarger' Extension icon next to your address bar to enable the extension. Click again to disable. The extension will
-toggle between clicks.
-
 <h2>Notes</h2>
 I initially set out to make a Image Enlarger (as the name obviously suggests) that enlarged image to twice its dimensions
 when hovered over. However, I encountered problems when dealing with images contained within certain parent elements having a 
